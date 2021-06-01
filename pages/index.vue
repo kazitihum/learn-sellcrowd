@@ -29,16 +29,19 @@
           </div>
           <form
             action=""
-            class="flex flex-col sm:flex-row items-center justify-center mt-8"
+            class="relative z-10 flex flex-col sm:flex-row items-center justify-center mt-8"
           >
             <input
-              type="text"
+              type="email"
               placeholder="Your email address"
               class="input input-lg input-bordered rounded-full min-1_3 mb-5 sm:mb-0 sm:mr-5 c-shadow"
             />
-            <button class="btn btn-lg btn-primary w-52 rounded-full c-shadow-2">
+            <NuxtLink
+              to=""
+              class="btn btn-lg btn-primary w-52 rounded-full c-shadow-2"
+            >
               Get Started
-            </button>
+            </NuxtLink>
           </form>
           <img
             class="mx-auto -mt-10 md:-mt-20 lg:-mt-40"
@@ -114,7 +117,7 @@
         <div
           class="grid gap-2 sm:gap-10 grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 py-14 sm:pb-24"
         >
-          <div class="content">
+          <div class="content relative z-10">
             <h2 class="text-2xl sm:text-6xl mb-5">
               Even if you have less than 100 leads, we are here for you
             </h2>
@@ -137,7 +140,7 @@
           class="grid gap-2 sm:gap-10 grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 py-14 sm:py-24 xl:pt-80 xl:pb-60"
         >
           <div class="content"></div>
-          <div class="content">
+          <div class="content relative z-10">
             <h2 class="text-2xl sm:text-6xl mb-5">
               Getting started is easy in just 3 steps
             </h2>

@@ -5,8 +5,18 @@
     </div>
     <div class="justify-center flex-1 hidden px-2 mx-2 lg:flex">
       <div class="flex items-stretch">
-        <a class="btn btn-ghost btn-sm w-44 rounded-full"> About Company </a>
-        <a class="btn btn-ghost btn-sm w-44 rounded-full"> Contact Sales </a>
+        <NuxtLink
+          to="#"
+          class="btn btn-ghost btn-sm w-44 rounded-full text-tertiary"
+        >
+          About Company
+        </NuxtLink>
+        <NuxtLink
+          to="#"
+          class="btn btn-ghost btn-sm w-44 rounded-full text-tertiary"
+        >
+          Contact Sales
+        </NuxtLink>
       </div>
     </div>
     <div class="flex-none">
