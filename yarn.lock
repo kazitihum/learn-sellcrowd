@@ -1873,7 +1873,7 @@
   "resolved" "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz"
   "version" "2.1.2"
 
-"autoprefixer@^10.0.2", "autoprefixer@^10.2.5":
+"autoprefixer@^10.0.2", "autoprefixer@^10.2.5", "autoprefixer@^10.2.6":
   "integrity" "sha512-8lChSmdU6dCNMCQopIf4Pe5kipkAGj/fvTMslCsih0uHpOrXOPUEVOmYMMqmw3cekQkSD7EhIeuYl5y0BLdKqg=="
   "resolved" "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.6.tgz"
   "version" "10.2.6"

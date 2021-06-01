@@ -1,8 +1,16 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
-export const plugins = [
-    require('daisyui'),
-];
-export const theme = {
+module.exports = {
+  darkMode: false, // or 'media' or 'class'
+  purge: {
+    content: [
+      `components/**/*.{vue,js}`,
+      `layouts/**/*.vue`,
+      `pages/**/*.vue`,
+      `plugins/**/*.{js,ts}`,
+      `nuxt.config.{js,ts}`
+      ]
+  },
+  theme: {
     extend: {
         colors: {
             primary: '#3C50E0',
@@ -16,13 +24,10 @@ export const theme = {
         'body': ['Causten', ...defaultTheme.fontFamily.sans],
         'display': ['Causten', ...defaultTheme.fontFamily.sans]
     }
-};
-export const purse = {
-    content: [
-      `components/**/*.{vue,js}`,
-      `layouts/**/*.vue`,
-      `pages/**/*.vue`,
-      `plugins/**/*.{js,ts}`,
-      `nuxt.config.{js,ts}`
-    ]
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [
+    require('daisyui'),],
 }

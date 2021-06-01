@@ -1,6 +1,6 @@
 <template>
-  <div class="navbar mb-2 rounded-box">
-    <div class="flex-1 px-2 mx-2 lg:flex-none">
+  <div class="navbar mb-2 rounded-box flex-col md:flex-row">
+    <div class="flex-1 px-2 mx-2 lg:flex-none mb-4 md:mb-0">
       <NuxtLink to="/"><Logo /></NuxtLink>
     </div>
     <div class="justify-center flex-1 hidden px-2 mx-2 lg:flex">
@@ -10,7 +10,9 @@
       </div>
     </div>
     <div class="flex-none">
-      <button class="btn btn-primary w-52 rounded-full">Get Started</button>
+      <NuxtLink to="#" class="btn btn-primary w-52 rounded-full"
+        >Get Started</NuxtLink
+      >
     </div>
   </div>
 </template>
