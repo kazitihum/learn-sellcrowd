@@ -26,14 +26,19 @@
 
 /* Fonts */
 @font-face {
-  font-family: Causten;
+  font-family: "Causten";
   src: url("../font/Causten-Regular.otf");
   font-weight: normal;
 }
 @font-face {
-  font-family: Causten;
+  font-family: "Causten";
   src: url("../font/Causten-bold.otf");
   font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("../font/RobotoMono-Light.ttf");
+  font-weight: light;
 }
 
 h1 {
@@ -54,6 +59,12 @@ p {
 
 .min-1_3 {
   min-width: 33.333333%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
 }
 
 @tailwind utilities;

@@ -15,7 +15,8 @@ module.exports = {
         colors: {
           primary: '#3C50E0',
           secondary: '#5A698D',
-          tertiary: '#00005C'
+          tertiary: '#00005C',
+          cGray: '#EEF1F8'
         },
     },
     fontFamily: {
@@ -23,7 +24,8 @@ module.exports = {
       'serif': ['Causten', ...defaultTheme.fontFamily.serif],
       'mono': ['Causten', ...defaultTheme.fontFamily.sans],
       'body': ['Causten', ...defaultTheme.fontFamily.sans],
-      'display': ['Causten', ...defaultTheme.fontFamily.sans]
+      'display': ['Causten', ...defaultTheme.fontFamily.sans],
+      'code': ['Roboto Mono', ...defaultTheme.fontFamily.sans]
     }
   },
   variants: {

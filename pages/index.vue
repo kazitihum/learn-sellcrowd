@@ -1,16 +1,14 @@
 <template>
   <div>
-    <div class="container mx-auto mt-8">
-      <NavBar />
-    </div>
+    <NavBar />
     <div class="container mx-auto">
-      <div id="cover" class="pt-14 sm:pt-20">
+      <div id="cover" class="pt-14">
         <div class="text">
           <h1 class="text-center max-w-5xl mx-auto">
             Get real sales pros to contact qualify and convert your leads 24x7
           </h1>
           <div
-            class="subtitle flex items-center justify-center mt-6 text-base sm:text-2xl"
+            class="subtitle flex items-center justify-center mt-6 text-base sm:text-2xl text-secondary"
           >
             <svg
               class="mr-3"
@@ -37,7 +35,7 @@
               class="input input-lg input-bordered rounded-full min-1_3 mb-5 sm:mb-0 sm:mr-5 c-shadow"
             />
             <NuxtLink
-              to=""
+              to="#"
               class="btn btn-lg btn-primary w-52 rounded-full c-shadow-2"
             >
               Get Started
@@ -202,9 +200,6 @@ export default {};
   top: 0;
 }
 @media (max-width: 1024px) {
-  .container {
-    padding: 0 20px;
-  }
   #two-col-right-img__section:after,
   #two-col-left-img__section:after {
     transform: scale(0.7);

@@ -82,14 +82,4 @@ export default {};
 </script>
 
 <style scoped>
-@media (max-width: 1024px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-@media (max-width: 640px) {
-  .container {
-    padding: 0 20px;
-  }
-}
 </style>
