@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar />
+
     <div class="container mx-auto w-full h-full pt-14">
       <div class="relative wrap overflow-hidden h-full">
         <div class="flex flex-wrap item-center">
@@ -13,30 +14,35 @@
           <div
             class="flex order-1 sm:order-3 w-full sm:w-auto items-center ml-auto mb-5 sm:mb-0"
           >
-            <div
+            <NuxtLink
+              to="step-2"
               class="z-20 flex items-center order-1 w-10 h-10 mr-5 rounded"
               style="background-color: #ff5670"
             >
               <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
-            </div>
-            <div
+            </NuxtLink>
+            <NuxtLink
+              to="step-3"
               class="z-20 flex items-center order-1 w-10 h-10 mr-5 rounded"
               style="background-color: #fdb400"
             >
               <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
-            </div>
-            <div
+            </NuxtLink>
+            <NuxtLink
+              to="step-4"
               class="z-20 flex items-center order-1 w-10 h-10 rounded"
               style="background-color: #464265"
             >
               <h1 class="mx-auto font-semibold text-lg text-white">4</h1>
-            </div>
+            </NuxtLink>
           </div>
         </div>
         <div
           class="absolute border-opacity-20 border-primary h-full border-r"
           style="left: 20px"
         ></div>
+
+        <!-- ------- Name Your Sales Campaign -------- -->
         <div class="flex items-start w-full mt-14">
           <div
             class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-3 rounded-full"
@@ -58,6 +64,8 @@
             </div>
           </div>
         </div>
+
+        <!-- --------- Integrate Lead Source --------- -->
         <div class="flex items-start w-full mt-14">
           <div
             class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
@@ -200,6 +208,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ------ Tell Us About Your Product ------- -->
         <div class="flex items-start w-full mt-14">
           <div
             class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
@@ -333,6 +343,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ----- What is the outcome you want? ----- -->
         <div class="flex items-start w-full mt-14">
           <div
             class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
@@ -392,6 +404,7 @@
         </div>
       </div>
     </div>
+
     <div class="bg-primary">
       <div class="container mx-auto py-14">
         <div class="flex flex-wrap flex-col sm:flex-row items-center">
