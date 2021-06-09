@@ -6,13 +6,34 @@
       <div class="relative wrap overflow-hidden h-full">
         <div class="flex flex-wrap item-center">
           <div
-            class="z-20 flex items-center order-2 sm:order-1 bg-primary w-10 h-10 mr-5 rounded"
+            class="
+              z-20
+              flex
+              items-center
+              order-2
+              sm:order-1
+              bg-primary
+              w-10
+              h-10
+              mr-5
+              rounded
+            "
           >
             <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
           </div>
           <h1 class="text-3xl order-3 sm:order-2">Upload Your Leads</h1>
           <div
-            class="flex order-1 sm:order-3 w-full sm:w-auto items-center ml-auto mb-5 sm:mb-0"
+            class="
+              flex
+              order-1
+              sm:order-3
+              w-full
+              sm:w-auto
+              items-center
+              ml-auto
+              mb-5
+              sm:mb-0
+            "
           >
             <NuxtLink
               to="step-2"
@@ -45,7 +66,19 @@
         <!-- ------- Name Your Sales Campaign -------- -->
         <div class="flex items-start w-full mt-14">
           <div
-            class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-3 rounded-full"
+            class="
+              z-20
+              flex
+              items-start
+              order-1
+              bg-primary
+              w-4
+              h-4
+              mr-8
+              ml-3
+              mt-3
+              rounded-full
+            "
           >
             <h1 class="mx-auto font-semibold text-lg text-white"></h1>
           </div>
@@ -59,7 +92,14 @@
               <input
                 type="text"
                 placeholder="Enter a campaign name"
-                class="input bg-cGray w-full max-w-md focus:outline-none focus:ring-1 focus:ring-opacity-100 focus:ring-primary"
+                class="
+                  input
+                  bg-cGray
+                  w-full
+                  max-w-md
+                  focus:outline-none
+                  focus:ring-1 focus:ring-opacity-100 focus:ring-primary
+                "
               />
             </div>
           </div>
@@ -68,7 +108,19 @@
         <!-- --------- Integrate Lead Source --------- -->
         <div class="flex items-start w-full mt-14">
           <div
-            class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+            class="
+              z-20
+              flex
+              items-start
+              order-1
+              bg-primary
+              w-4
+              h-4
+              mr-8
+              ml-3
+              mt-2
+              rounded-full
+            "
           >
             <h1 class="mx-auto font-semibold text-lg text-white"></h1>
           </div>
@@ -80,11 +132,26 @@
               choose any one or all
             </div>
             <div
-              class="order-3 grid gap-5 grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 w-full mt-5"
+              class="
+                order-3
+                grid
+                gap-5
+                grid-flow-row
+                sm:grid-flow-col
+                grid-cols-1
+                sm:grid-cols-3
+                w-full
+                mt-5
+              "
             >
               <div class="border border-cGray rounded-lg p-6">
                 <h2
-                  class="text-2xl text-tertiary flex flex-wrap items-center mb-5"
+                  class="
+                    text-2xl text-tertiary
+                    flex flex-wrap
+                    items-center
+                    mb-5
+                  "
                 >
                   <img
                     class="mr-3"
@@ -135,14 +202,33 @@
                   />Copy Code
                   <span
                     id="copySuccess"
-                    class="opacity-0 invisible relative left-5 transition-all duration-300 ease-in-out bg-cGray rounded font-normal pt-1 pb-2 px-3"
+                    class="
+                      opacity-0
+                      invisible
+                      relative
+                      left-5
+                      transition-all
+                      duration-300
+                      ease-in-out
+                      bg-cGray
+                      rounded
+                      font-normal
+                      pt-1
+                      pb-2
+                      px-3
+                    "
                     >Copyied</span
                   >
                 </a>
               </div>
               <div class="border border-cGray rounded-lg p-6">
                 <h2
-                  class="text-2xl text-tertiary flex flex-wrap items-center mb-5"
+                  class="
+                    text-2xl text-tertiary
+                    flex flex-wrap
+                    items-center
+                    mb-5
+                  "
                 >
                   <img
                     class="mr-3"
@@ -188,7 +274,15 @@
                 </div>
               </div>
               <div
-                class="bg-cGray rounded-lg flex flex-col justify-center items-center text-center p-6"
+                class="
+                  bg-cGray
+                  rounded-lg
+                  flex flex-col
+                  justify-center
+                  items-center
+                  text-center
+                  p-6
+                "
               >
                 <img
                   class="mb-5"
@@ -212,7 +306,19 @@
         <!-- ------ Tell Us About Your Product ------- -->
         <div class="flex items-start w-full mt-14">
           <div
-            class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+            class="
+              z-20
+              flex
+              items-start
+              order-1
+              bg-primary
+              w-4
+              h-4
+              mr-8
+              ml-3
+              mt-2
+              rounded-full
+            "
           >
             <h1 class="mx-auto font-semibold text-lg text-white"></h1>
           </div>
@@ -226,18 +332,48 @@
               </p>
             </div>
             <div
-              class="order-2 w-full sm:w-auto mt-3 sm:mt-0 ml-auto text-secondary"
+              class="
+                order-2
+                w-full
+                sm:w-auto
+                mt-3
+                sm:mt-0
+                ml-auto
+                text-secondary
+              "
             >
               choose any one or all
             </div>
             <div
-              class="order-3 grid gap-5 grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 w-full mt-5"
+              class="
+                order-3
+                grid
+                gap-5
+                grid-flow-row
+                sm:grid-flow-col
+                grid-cols-1
+                sm:grid-cols-3
+                w-full
+                mt-5
+              "
             >
               <div
-                class="flex flex-col items-start border border-cGray rounded-lg px-6 py-6"
+                class="
+                  flex flex-col
+                  items-start
+                  border border-cGray
+                  rounded-lg
+                  px-6
+                  py-6
+                "
               >
                 <h2
-                  class="text-2xl text-tertiary flex flex-wrap items-center mb-5"
+                  class="
+                    text-2xl text-tertiary
+                    flex flex-wrap
+                    items-center
+                    mb-5
+                  "
                 >
                   <img
                     class="mr-3"
@@ -253,16 +389,33 @@
                   information from that.
                 </p>
                 <button
-                  class="btn btn-outline btn-primary rounded-full border-2 px-10"
+                  class="
+                    btn btn-outline btn-primary
+                    rounded-full
+                    border-2
+                    px-10
+                  "
                 >
                   Upload File
                 </button>
               </div>
               <div
-                class="flex flex-col items-start border border-cGray rounded-lg px-6 py-6"
+                class="
+                  flex flex-col
+                  items-start
+                  border border-cGray
+                  rounded-lg
+                  px-6
+                  py-6
+                "
               >
                 <h2
-                  class="text-2xl text-tertiary flex flex-wrap items-center mb-5"
+                  class="
+                    text-2xl text-tertiary
+                    flex flex-wrap
+                    items-center
+                    mb-5
+                  "
                 >
                   <img
                     class="mr-3"
@@ -278,7 +431,12 @@
                   market info
                 </p>
                 <button
-                  class="btn btn-outline btn-primary rounded-full border-2 px-10"
+                  class="
+                    btn btn-outline btn-primary
+                    rounded-full
+                    border-2
+                    px-10
+                  "
                 >
                   Take The Quiz
                 </button>
@@ -287,7 +445,12 @@
                 class="flex flex-col border border-cGray rounded-lg px-6 py-6"
               >
                 <h2
-                  class="text-2xl text-tertiary flex flex-wrap items-center mb-5"
+                  class="
+                    text-2xl text-tertiary
+                    flex flex-wrap
+                    items-center
+                    mb-5
+                  "
                 >
                   <img
                     class="mr-3"
@@ -299,7 +462,14 @@
                   Add Products Manually
                 </h2>
                 <div
-                  class="text-secondary border-t border-b border-cGray px-6 -mx-6 mt-auto -mb-6"
+                  class="
+                    text-secondary
+                    border-t border-b border-cGray
+                    px-6
+                    -mx-6
+                    mt-auto
+                    -mb-6
+                  "
                 >
                   <div class="flex">
                     <label for="product_url" class="flex-1 py-3"
@@ -347,7 +517,19 @@
         <!-- ----- What is the outcome you want? ----- -->
         <div class="flex items-start w-full mt-14">
           <div
-            class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+            class="
+              z-20
+              flex
+              items-start
+              order-1
+              bg-primary
+              w-4
+              h-4
+              mr-8
+              ml-3
+              mt-2
+              rounded-full
+            "
           >
             <h1 class="mx-auto font-semibold text-lg text-white"></h1>
           </div>
@@ -358,9 +540,13 @@
                   What is the outcome you want?
                 </h3>
                 <div class="w-full flex flex-row flex-wrap">
-                  <button class="btn btn-outline border-cGray hover:bg-cGray">
+                  <label
+                    for="meeting"
+                    class="btn btn-outline border-cGray hover:bg-cGray"
+                  >
                     <div>
                       <input
+                        id="meeting"
                         type="radio"
                         name="opt"
                         checked="checked"
@@ -370,16 +556,23 @@
                       <span class="radio-mark"></span>
                     </div>
                     <span class="label-text ml-3">Meeting</span>
-                  </button>
-                  <button
+                  </label>
+                  <label
+                    for="sales"
                     class="btn btn-outline border-cGray hover:bg-cGray ml-5"
                   >
                     <div>
-                      <input type="radio" name="opt" class="radio" value="" />
+                      <input
+                        id="sales"
+                        type="radio"
+                        name="opt"
+                        class="radio"
+                        value=""
+                      />
                       <span class="radio-mark"></span>
                     </div>
                     <span class="label-text ml-3">Sales</span>
-                  </button>
+                  </label>
                 </div>
               </div>
             </div>
@@ -405,36 +598,7 @@
       </div>
     </div>
 
-    <div class="bg-primary">
-      <div class="container mx-auto py-14">
-        <div class="flex flex-wrap flex-col sm:flex-row items-center">
-          <div class="flex flex-1 mb-5 sm:mb-0">
-            <img
-              class="text-white"
-              src="~/assets/icon/info-outline-round.svg"
-              alt=""
-            />
-            <p class="ml-3 text-white max-w-2xl">
-              Add as much information as you can here for your new sales team to
-              learn about your product and the market. On the next screen, you
-              will get to build a sales script.
-            </p>
-          </div>
-          <div class="flex flex-row items-center">
-            <button
-              class="btn btn-outline btn-white w-44 rounded-full border-2 border-white text-white mr-5"
-            >
-              Ship This Step
-            </button>
-            <button
-              class="btn btn-outline btn-white w-44 rounded-full border-2 border-white text-white"
-            >
-              Next
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <StepsFooter />
   </div>
 </template>
 

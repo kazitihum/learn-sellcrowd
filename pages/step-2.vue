@@ -8,7 +8,17 @@
           <div class="z-20 flex items-center order-1 sm:order-1">
             <NuxtLink
               to="step-1"
-              class="z-20 flex items-center order-1 bg-primary w-10 h-10 mr-5 rounded"
+              class="
+                z-20
+                flex
+                items-center
+                order-1
+                bg-primary
+                w-10
+                h-10
+                mr-5
+                rounded
+              "
             >
               <h1 class="mx-auto font-semibold text-lg text-white">
                 <img src="~/assets/icon/check-round.svg" alt="" />
@@ -22,7 +32,16 @@
             </div>
           </div>
           <h1
-            class="text-3xl order-3 ml-14 sm:ml-0 -mb-24 mt-5 sm:mt-0 sm:order-2"
+            class="
+              text-3xl
+              order-3
+              ml-14
+              sm:ml-0
+              -mb-24
+              mt-5
+              sm:mt-0
+              sm:order-2
+            "
           >
             Design Your Sales Script
           </h1>
@@ -48,13 +67,35 @@
           style="left: 20px"
         ></div>
         <div
-          class="sidebar-container relative flex flex-col sm:flex-row items-start justify-start h-full mt-28 sm:mt-14"
+          class="
+            sidebar-container
+            relative
+            flex flex-col
+            sm:flex-row
+            items-start
+            justify-start
+            h-full
+            mt-28
+            sm:mt-14
+          "
         >
           <div class="flex flex-1 h-full flex-col mr-0 sm:mr-10">
             <!-- -----------------  Intro ----------------- -->
             <div class="flex flex-1 flex-wrap items-start">
               <div
-                class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+                class="
+                  z-20
+                  flex
+                  items-start
+                  order-1
+                  bg-primary
+                  w-4
+                  h-4
+                  mr-8
+                  ml-3
+                  mt-2
+                  rounded-full
+                "
               >
                 <h1 class="mx-auto font-semibold text-lg text-white"></h1>
               </div>
@@ -116,7 +157,14 @@
 
                     <a
                       href="#"
-                      class="mt-3 flex items-center justify-center text-primary font-bold"
+                      class="
+                        mt-3
+                        flex
+                        items-center
+                        justify-center
+                        text-primary
+                        font-bold
+                      "
                       v-on:click.prevent
                       >View More
                       <img src="~/assets/icon/chevron-down-round.svg" alt="" />
@@ -124,7 +172,13 @@
                   </div>
 
                   <button
-                    class="btn btn-outline btn-primary rounded-full border-2 px-10 mt-5"
+                    class="
+                      btn btn-outline btn-primary
+                      rounded-full
+                      border-2
+                      px-10
+                      mt-5
+                    "
                   >
                     Add Your Own
                   </button>
@@ -135,7 +189,19 @@
             <!-- ---------- Nees and Relevence ----------- -->
             <div class="flex flex-1 flex-wrap items-start mt-14">
               <div
-                class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+                class="
+                  z-20
+                  flex
+                  items-start
+                  order-1
+                  bg-primary
+                  w-4
+                  h-4
+                  mr-8
+                  ml-3
+                  mt-2
+                  rounded-full
+                "
               >
                 <h1 class="mx-auto font-semibold text-lg text-white"></h1>
               </div>
@@ -199,7 +265,14 @@
 
                     <a
                       href="#"
-                      class="mt-3 flex items-center justify-center text-primary font-bold"
+                      class="
+                        mt-3
+                        flex
+                        items-center
+                        justify-center
+                        text-primary
+                        font-bold
+                      "
                       v-on:click.prevent
                       >View More
                       <img src="~/assets/icon/chevron-down-round.svg" alt="" />
@@ -207,7 +280,13 @@
                   </div>
 
                   <button
-                    class="btn btn-outline btn-primary rounded-full border-2 px-10 mt-5"
+                    class="
+                      btn btn-outline btn-primary
+                      rounded-full
+                      border-2
+                      px-10
+                      mt-5
+                    "
                   >
                     Add Your Own
                   </button>
@@ -218,7 +297,19 @@
             <!-- ---------------- Budget ----------------- -->
             <div class="flex flex-1 flex-wrap items-start mt-14">
               <div
-                class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+                class="
+                  z-20
+                  flex
+                  items-start
+                  order-1
+                  bg-primary
+                  w-4
+                  h-4
+                  mr-8
+                  ml-3
+                  mt-2
+                  rounded-full
+                "
               >
                 <h1 class="mx-auto font-semibold text-lg text-white"></h1>
               </div>
@@ -278,7 +369,14 @@
 
                     <a
                       href="#"
-                      class="mt-3 flex items-center justify-center text-primary font-bold"
+                      class="
+                        mt-3
+                        flex
+                        items-center
+                        justify-center
+                        text-primary
+                        font-bold
+                      "
                       v-on:click.prevent
                       >View More
                       <img src="~/assets/icon/chevron-down-round.svg" alt="" />
@@ -286,7 +384,13 @@
                   </div>
 
                   <button
-                    class="btn btn-outline btn-primary rounded-full border-2 px-10 mt-5"
+                    class="
+                      btn btn-outline btn-primary
+                      rounded-full
+                      border-2
+                      px-10
+                      mt-5
+                    "
                   >
                     Add Your Own
                   </button>
@@ -297,7 +401,19 @@
             <!-- --------------- Authority --------------- -->
             <div class="flex flex-1 flex-wrap items-start mt-14">
               <div
-                class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+                class="
+                  z-20
+                  flex
+                  items-start
+                  order-1
+                  bg-primary
+                  w-4
+                  h-4
+                  mr-8
+                  ml-3
+                  mt-2
+                  rounded-full
+                "
               >
                 <h1 class="mx-auto font-semibold text-lg text-white"></h1>
               </div>
@@ -336,7 +452,14 @@
 
                     <a
                       href="#"
-                      class="mt-3 flex items-center justify-center text-primary font-bold"
+                      class="
+                        mt-3
+                        flex
+                        items-center
+                        justify-center
+                        text-primary
+                        font-bold
+                      "
                       v-on:click.prevent
                       >View More
                       <img src="~/assets/icon/chevron-down-round.svg" alt="" />
@@ -344,7 +467,13 @@
                   </div>
 
                   <button
-                    class="btn btn-outline btn-primary rounded-full border-2 px-10 mt-5"
+                    class="
+                      btn btn-outline btn-primary
+                      rounded-full
+                      border-2
+                      px-10
+                      mt-5
+                    "
                   >
                     Add Your Own
                   </button>
@@ -355,7 +484,19 @@
             <!-- ---------------- Timing ----------------- -->
             <div class="flex flex-1 flex-wrap items-start mt-14">
               <div
-                class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+                class="
+                  z-20
+                  flex
+                  items-start
+                  order-1
+                  bg-primary
+                  w-4
+                  h-4
+                  mr-8
+                  ml-3
+                  mt-2
+                  rounded-full
+                "
               >
                 <h1 class="mx-auto font-semibold text-lg text-white"></h1>
               </div>
@@ -413,7 +554,14 @@
 
                     <a
                       href="#"
-                      class="mt-3 flex items-center justify-center text-primary font-bold"
+                      class="
+                        mt-3
+                        flex
+                        items-center
+                        justify-center
+                        text-primary
+                        font-bold
+                      "
                       v-on:click.prevent
                       >View More
                       <img src="~/assets/icon/chevron-down-round.svg" alt="" />
@@ -421,7 +569,13 @@
                   </div>
 
                   <button
-                    class="btn btn-outline btn-primary rounded-full border-2 px-10 mt-5"
+                    class="
+                      btn btn-outline btn-primary
+                      rounded-full
+                      border-2
+                      px-10
+                      mt-5
+                    "
                   >
                     Add Your Own
                   </button>
@@ -432,7 +586,19 @@
             <!-- ----------------- Close ----------------- -->
             <div class="flex flex-1 flex-wrap items-start my-14">
               <div
-                class="z-20 flex items-start order-1 bg-primary w-4 h-4 mr-8 ml-3 mt-2 rounded-full"
+                class="
+                  z-20
+                  flex
+                  items-start
+                  order-1
+                  bg-primary
+                  w-4
+                  h-4
+                  mr-8
+                  ml-3
+                  mt-2
+                  rounded-full
+                "
               >
                 <h1 class="mx-auto font-semibold text-lg text-white"></h1>
               </div>
@@ -512,7 +678,14 @@
 
                     <a
                       href="#"
-                      class="mt-3 flex items-center justify-center text-primary font-bold"
+                      class="
+                        mt-3
+                        flex
+                        items-center
+                        justify-center
+                        text-primary
+                        font-bold
+                      "
                       v-on:click.prevent
                       >View More
                       <img src="~/assets/icon/chevron-down-round.svg" alt="" />
@@ -520,7 +693,13 @@
                   </div>
 
                   <button
-                    class="btn btn-outline btn-primary rounded-full border-2 px-10 mt-5"
+                    class="
+                      btn btn-outline btn-primary
+                      rounded-full
+                      border-2
+                      px-10
+                      mt-5
+                    "
                   >
                     Add Your Own
                   </button>
@@ -563,36 +742,7 @@ Okay, perfect. So is it okay to put down a deposit today? Do you have a credit c
       </div>
     </div>
 
-    <div class="bg-primary">
-      <div class="container mx-auto py-14">
-        <div class="flex flex-wrap flex-col sm:flex-row items-center">
-          <div class="flex flex-1 mb-5 sm:mb-0">
-            <img
-              class="text-white"
-              src="~/assets/icon/info-outline-round.svg"
-              alt=""
-            />
-            <p class="ml-3 text-white max-w-2xl">
-              Add as much information as you can here for your new sales team to
-              learn about your product and the market. On the next screen, you
-              will get to build a sales script.
-            </p>
-          </div>
-          <div class="flex flex-row items-center">
-            <button
-              class="btn btn-outline btn-white w-44 rounded-full border-2 border-white text-white mr-5"
-            >
-              Ship This Step
-            </button>
-            <button
-              class="btn btn-outline btn-white w-44 rounded-full border-2 border-white text-white"
-            >
-              Next
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <StepsFooter />
   </div>
 </template>
 
