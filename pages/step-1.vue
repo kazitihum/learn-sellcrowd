@@ -627,7 +627,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 select {
   background: url("~/assets/icon/chevron-right-round.svg") no-repeat;
   background-position: calc(100% + 5px);

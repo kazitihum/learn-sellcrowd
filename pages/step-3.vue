@@ -284,7 +284,7 @@
                         ease-in-out
                       "
                     >
-                      <div class="flex">
+                      <div class="flex flex-col-reverse sm:flex-row">
                         <div class="content flex-1">
                           <p class="text-2xl max-w-xs mb-3">
                             or build a job post to hire more candidates
@@ -302,7 +302,7 @@
                             Create A Job Post
                           </button>
                         </div>
-                        <div class="content">
+                        <div class="content mb-3 sm:mb-0">
                           <img src="~/assets/icon/user-group-icon.svg" alt="" />
                         </div>
                       </div>
@@ -701,7 +701,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .box-border .content label div {
   border-width: 1px;
   border-style: solid;
@@ -732,6 +732,11 @@ export default {
 }
 .box-border .content {
   position: relative;
+}
+.box-border .content label {
+  display: block;
+  cursor: pointer;
+  height: 100%;
 }
 .content input:checked + label div {
   border: 1px solid #00005c !important;

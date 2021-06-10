@@ -31,7 +31,7 @@
           <NuxtLink
             v-else
             to="#"
-            class="btn btn-outline btn-primary w-44 rounded-full"
+            class="btn btn-outline btn-primary w-44 border-2 rounded-full"
             >Save and Exit</NuxtLink
           >
         </div>

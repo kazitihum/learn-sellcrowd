@@ -757,7 +757,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 code {
   padding: 5px 10px;
   background-color: #eef1f8;

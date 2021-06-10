@@ -18,6 +18,7 @@
           </p>
         </div>
         <div
+          v-if="$nuxt.$route.path !== '/step-4'"
           class="
             sm:ml-auto
             flex flex-col
@@ -52,6 +53,30 @@
             "
           >
             Next
+          </button>
+        </div>
+        <div
+          v-else
+          class="
+            sm:ml-auto
+            flex flex-col
+            sm:flex-row
+            justify-center
+            items-center
+          "
+        >
+          <button
+            class="
+              btn
+              text-primary
+              hover:text-white
+              bg-white
+              w-44
+              rounded-full
+              border-2 border-white
+            "
+          >
+            Finish
           </button>
         </div>
       </div>
