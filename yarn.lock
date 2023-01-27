@@ -7629,9 +7629,10 @@ std-env@^2.2.1, std-env@^2.3.0:
   dependencies:
     ci-info "^3.1.1"
 
-"sticky-sidebar-v2@git+https://github.com/Alucard17/sticky-sidebar-v2.git":
+"sticky-sidebar-v2@https://github.com/Alucard17/sticky-sidebar-v2":
   version "1.0.1"
-  resolved "git+https://github.com/Alucard17/sticky-sidebar-v2.git#acd8ea6cffb2cfdaae06c59acf292288714a92f1"
+  uid acd8ea6cffb2cfdaae06c59acf292288714a92f1
+  resolved "https://github.com/Alucard17/sticky-sidebar-v2#acd8ea6cffb2cfdaae06c59acf292288714a92f1"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
@@ -8083,9 +8084,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.28:
-  version "0.7.31"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
-  integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 ufo@^0.7.4, ufo@^0.7.5:
   version "0.7.9"
